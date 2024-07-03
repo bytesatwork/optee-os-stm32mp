@@ -13,12 +13,16 @@ flavor_dts_file-157D_EV1 = stm32mp157d-ev1.dts
 flavor_dts_file-157F_DK2 = stm32mp157f-dk2.dts
 flavor_dts_file-157F_ED1 = stm32mp157f-ed1.dts
 flavor_dts_file-157F_EV1 = stm32mp157f-ev1.dts
+flavor_dts_file-157C_BDK-1_1 = stm32mp157c-bytedevkit-v1-1.dts
+flavor_dts_file-157C_BDK-1_3 = stm32mp157c-bytedevkit-v1-3.dts
 
 flavor_dts_file-135F_DK = stm32mp135f-dk.dts
 
 flavorlist-cryp-512M = $(flavor_dts_file-157C_DK2) \
 		       $(flavor_dts_file-157F_DK2) \
-		       $(flavor_dts_file-135F_DK)
+		       $(flavor_dts_file-135F_DK) \
+		       $(flavor_dts_file-157C_BDK-1_1) \
+		       $(flavor_dts_file-157C_BDK-1_3)
 
 flavorlist-no_cryp-512M = $(flavor_dts_file-157A_DK1) \
 			  $(flavor_dts_file-157D_DK1)
